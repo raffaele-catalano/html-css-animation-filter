@@ -132,7 +132,6 @@
 /*ESERCIZIO 12*/
 .ex-12-button:hover .ex-12-top-white {
   animation: move-top 1.5s linear;
-  text-shadow: 0 0 5px #1ED760;
 }
 @keyframes move-top {
   0% {
@@ -162,3 +161,43 @@
 }
 
 /*ESERCIZIO 13*/
+.ex-13-button:hover .ex-13-top-white {
+  animation: move-top 1.5s linear;
+}
+@keyframes move-top {
+  0% {
+    left: 10%;
+    top: -10px;
+  }
+  25% {
+    left: calc(100% - 30px);
+    top: -10px;
+  }
+  50% {
+    left: calc(100% - 30px);
+    top: 100%;
+  }
+  75% {
+    left: 0;
+    top: 100%;
+  }
+  100% {
+    left: 10%;
+    top: -10px;
+  }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: move-bot 1.5s linear;
+}
+@keyframes move-bot {
+  0% {
+      right: 20%;
+  }
+  50% {
+      right: calc(100% - 60px);
+  }
+  100% {
+      right: 20%;
+  }
+}
