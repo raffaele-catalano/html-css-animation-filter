@@ -81,4 +81,12 @@
   transition: all 1s;
 }
 
-/*ESERCIZIO 7*/
+/*ESERCIZIO 8*/
+.ex-8-img:hover{
+  filter: grayscale(0.5) sepia(0.5);
+  border-radius: 15px;
+}
+
+.ex-8-img {
+  transition: all 1.5s;
+}
