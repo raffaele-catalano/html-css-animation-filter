@@ -1,0 +1,12 @@
+/*ESERCIZIO 1*/
+.ex-1-square:hover{
+  border: 1px solid black;
+  border-radius: 10px;
+    background-color: crimson;
+}
+
+.ex-1-square {
+  transition: 1.5s;
+}
+
+/*ESERCIZIO 2*/
