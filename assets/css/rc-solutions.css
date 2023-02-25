@@ -112,7 +112,23 @@
   }
 }
 
-
 /*ESERCIZIO 11*/
+.ex-11-icon:hover {
+  animation: less-spin 2s linear;
+  text-shadow: 0 0 5px #1ED760;
+}
+@keyframes less-spin {
+  0% {
+    transform: rotate(0);
+  }
+  80% {
+    transform: rotate(320deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+
 /*ESERCIZIO 12*/
 /*ESERCIZIO 13*/
