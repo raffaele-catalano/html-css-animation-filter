@@ -162,7 +162,7 @@
 
 /*ESERCIZIO 13*/
 .ex-13-button:hover .ex-13-top-white {
-  animation: move-top 1.5s linear;
+  animation: move-top 2s linear;
 }
 @keyframes move-top {
   0% {
@@ -181,6 +181,10 @@
     left: 0;
     top: 100%;
   }
+  90% {
+    left: -15px;
+    top: -10px;
+  }
   100% {
     left: 10%;
     top: -10px;
@@ -188,16 +192,31 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-  animation: move-bot 1.5s linear;
+  animation: move-bot 2s linear;
 }
 @keyframes move-bot {
   0% {
-      right: 20%;
+    right: 10%;
+    bottom: -10px;
+  }
+  25% {
+    right: calc(100% - 30px);
+    bottom: -10px;
   }
   50% {
-      right: calc(100% - 60px);
+    right: calc(100% - 30px);
+    bottom: 100%;
+  }
+  75% {
+    right: 0;
+    bottom: 100%;
+  }
+  90% {
+    right: -15px;
+    bottom: -10px;
   }
   100% {
-      right: 20%;
+    right: 10%;
+    bottom: -10px;
   }
 }
