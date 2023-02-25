@@ -26,3 +26,12 @@
 }
 
 /*ESERCIZIO 3*/
+.ex-3-square:hover {
+  border: .5px solid black;
+  border-radius: 50%;
+  background-color: #1ED760;
+}
+
+.ex-3-square {
+  transition: .5s;
+}
