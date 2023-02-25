@@ -102,8 +102,17 @@
   transition: all 2s;
 }
 
-
 /*ESERCIZIO 10*/
+.ex-10-icon {
+  animation: spin 1s infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(1turn);
+  }
+}
+
+
 /*ESERCIZIO 11*/
 /*ESERCIZIO 12*/
 /*ESERCIZIO 13*/
