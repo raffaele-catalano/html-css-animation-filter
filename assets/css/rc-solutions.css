@@ -22,7 +22,7 @@
 }
 
 .ex-2-square {
-  transition: 2s;
+  transition: all 2s;
 }
 
 /*ESERCIZIO 3*/
@@ -33,5 +33,16 @@
 }
 
 .ex-3-square {
-  transition: .5s;
+  transition: all .5s;
 }
+
+/*ESERCIZIO 4*/
+.ex-4-square:hover {
+  opacity: 0;
+}
+
+.ex-4-square {
+  transition: all 1.5s;
+}
+
+/*ESERCIZIO 5*/
